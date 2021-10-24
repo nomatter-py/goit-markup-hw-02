@@ -1,0 +1,115 @@
+:root {
+    --primary-text-color :#757575;
+    --primary-logo-color:#000000;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+    --secondary-bg-color: #ECECEC;
+    --footer-bg-color: #2F303A;
+    --btn-filter-bg-color : #F5F4FA;
+
+}
+
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: unset;
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Header */
+.logo{
+    color: var(--primary-logo-color);
+}
+
+.logo > .logo-accent{
+    color: var(--accent-color);
+}
+
+.main-nav .link {
+    color: var(--title-text-color);
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.main-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contacts-nav .link {
+    color: var(--primary-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus
+ {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero .hero-title{
+    color: var(--primary-white-color);     
+}
+
+.hero .button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+
+/* Advantages */
+
+/* About */
+
+/* Our Team */
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team .team-card {
+    background-color: var(--primary-white-color);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--footer-bg-color);
+}
+
+.address {
+    color: var(--primary-white-color);
+}
+
+.address .link {
+    opacity: 0.6;
+}
+
+
+/* Portfolio Page */
+
+.button.button-filter{
+    background-color: var(--btn-filter-bg-color);
+    color: var(--title-text-color);
+}
+
+.button.button-filter:hover,
+.button.button-filter:focus
+{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
