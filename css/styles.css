@@ -1,0 +1,226 @@
+:root {
+    --primary-text-color :#757575;
+    --primary-logo-color:#000000;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+    --secondary-bg-color: #ECECEC;
+    --footer-bg-color: #2F303A;
+    --btn-filter-bg-color : #F5F4FA;
+
+}
+
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Header */
+.logo{
+    color: var(--primary-logo-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+}
+
+.logo > .logo-accent{
+    color: var(--accent-color);
+}
+
+.main-nav .nav-link {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.main-nav .nav-link:hover,
+.main-nav .nav-link:focus {
+    color: var(--accent-color);
+}
+
+.main-nav .nav-link.current {
+    color: var(--accent-color);
+}
+
+.contacts-nav .link {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus
+ {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero .hero-title{
+    color: var(--primary-white-color);     
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero .button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    cursor: pointer;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+
+/* Advantages */
+.advantages .section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantages .description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* About */
+.about .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Our Team */
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team .team-card {
+    background-color: var(--primary-white-color);
+}
+
+.team-card .section-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-card .position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--footer-bg-color);
+}
+
+.footer .logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.address {
+    color: var(--primary-white-color);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address .link {
+    color: inherit;
+    opacity: 0.6;
+}
+
+
+/* Portfolio Page */
+
+.button.button-filter{
+    background-color: var(--btn-filter-bg-color);
+    color: var(--title-text-color);
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.button.button-filter:hover,
+.button.button-filter:focus
+{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.portfolio-card .section-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-card .description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
